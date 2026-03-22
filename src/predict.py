@@ -1,7 +1,7 @@
 import joblib
 import pandas as pd
 
-pipeline = joblib.load("pipeline_full.pkl")
+pipeline = joblib.load("models/pipeline_full.pkl")
 
 # 🔥 Load training columns properly
 expected_cols = list(pipeline.feature_names_in_)
